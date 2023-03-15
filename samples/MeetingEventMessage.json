@@ -1,0 +1,25 @@
+{
+  "apiVersion": "1.0.0",
+  "meetingUpdate": {
+    "meetingState": {
+      "isMuted": false,
+      "isCameraOn": false,
+      "isHandRaised": false,
+      "isInMeeting": false,
+      "isRecordingOn": false,
+      "isBackgroundBlurred": false
+    },
+    "meetingPermissions": {
+      "canToggleMute": false,
+      "canToggleVideo": true,
+      "canToggleHand": false,
+      "canToggleBlur": false,
+      "canToggleRecord": false,
+      "canLeave": false,
+      "canReact": false,
+      "canToggleShareTray": false,
+      "canToggleChat": false,
+      "canStopSharing": false
+    }
+  }
+}
