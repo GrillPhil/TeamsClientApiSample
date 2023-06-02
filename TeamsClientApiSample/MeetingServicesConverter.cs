@@ -16,7 +16,7 @@ class MeetingServicesConverter : JsonConverter<MeetingService>
         string serializedValue = value switch
         {
             MeetingService.BackgroundBlur => "background-blur",
-            MeetingService.QueryMeetingState => "query_meeting_state",
+            MeetingService.QueryMeetingState => "query-meeting-state",
             MeetingService.RaiseHand => "raise-hand",
             MeetingService.Recording => "recording",
             MeetingService.ToggleMute => "toggle-mute",
